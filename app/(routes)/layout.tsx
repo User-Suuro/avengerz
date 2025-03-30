@@ -1,9 +1,11 @@
 import type React from "react"
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { ThemeProvider } from "@/components/navbar/theme-provider"
-import { Navbar } from "@/components/navbar/Navbar"
+import { ThemeProvider } from "@/app/_components/wrappers/theme-provider"
+import { Navbar } from "@/app/_components/navbar/Navbar"
+import { UserPrefsSettings } from "@/app/_components/wrappers/prefs"
 import '@/styles/globals.css'
+
 
 
 const geistSans = Geist({
@@ -36,6 +38,9 @@ export default function RootLayout({
               {children}
               </main>
             <footer></footer>
+            <div className="absolute bottom-10 right-10">
+              < UserPrefsSettings />
+            </div>
           </div>
         </ThemeProvider>
       </body>
