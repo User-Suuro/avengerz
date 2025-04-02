@@ -1,6 +1,5 @@
 import type React from 'react'
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
 import { ThemeProvider } from '@/app/_components/wrappers/theme-provider'
 import { Navbar } from '@/app/_components/navbar'
 import { UserPrefsSettings } from '@/app/_components/wrappers/prefs'
