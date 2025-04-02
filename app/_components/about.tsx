@@ -28,14 +28,14 @@ export default function AboutPage() {
 
             {/* Right collapsible content */}
             <div className="md:w-2/3">
-                <Card className="p-4 text-white">
+                <Card className="p-4">
                     <Accordion type="single" collapsible className="w-full">
                         <AccordionItem value="When was established">
-                            <AccordionTrigger className="text-primary text-lg font-semibold">
+                            <AccordionTrigger className="text-lg font-semibold">
                                 When was Avengerz Printing Services established?
                             </AccordionTrigger>
                             <AccordionContent>
-                                <p className="text-primary">
+                                <p>
                                     Avengerz Printing Services became official
                                     business recently (February, 2025). However,
                                     we have been in this industry for more than
@@ -47,11 +47,11 @@ export default function AboutPage() {
                         </AccordionItem>
 
                         <AccordionItem value="What services we offer">
-                            <AccordionTrigger className="text-primary text-lg font-semibold">
+                            <AccordionTrigger className="text-lg font-semibold">
                                 What services do you offer?
                             </AccordionTrigger>
                             <AccordionContent>
-                                <p className="text-primary">
+                                <p>
                                     We offer primarily offer Taurpaulin
                                     Printing, Styro Sign (e.g. Birthday,
                                     Nuptial, Christening, Backdraft, etc.),
@@ -65,11 +65,11 @@ export default function AboutPage() {
                         </AccordionItem>
 
                         <AccordionItem value="Where are we located?">
-                            <AccordionTrigger className="text-primary text-lg font-semibold">
+                            <AccordionTrigger className="text-lg font-semibold">
                                 Where do we operate and located?
                             </AccordionTrigger>
                             <AccordionContent>
-                                <p className="text-primary mb-8">
+                                <p className="mb-8">
                                     We are located at Stall #13 of Justo Lukban
                                     St, Daet, 4600 Camarines Norte, Philippines.
                                     You can also visit us personally to avail
@@ -99,25 +99,25 @@ export default function AboutPage() {
                         </AccordionItem>
 
                         <AccordionItem value="Contact Information">
-                            <AccordionTrigger className="text-primary text-lg font-semibold">
+                            <AccordionTrigger className="text-lg font-semibold">
                                 Contact Information
                             </AccordionTrigger>
                             <AccordionContent>
                                 <div className="flex flex-col gap-4">
-                                    <p className="text-primary flex items-center gap-4">
+                                    <p className="flex items-center gap-4">
                                         <PhoneCallIcon size={16} />
                                         +63 963-393-4468 (TNT)
                                     </p>
-                                    <p className="text-primary flex items-center gap-4">
+                                    <p className="flex items-center gap-4">
                                         <PhoneCallIcon size={16} />
                                         +63 952-563-9446 (TM)
                                     </p>
 
-                                    <p className="text-primary flex items-center gap-4">
+                                    <p className="flex items-center gap-4">
                                         <MailIcon size={16} />
                                         avengerzprint2025@gmail.com
                                     </p>
-                                    <p className="text-primary flex items-center gap-4">
+                                    <p className="flex items-center gap-4">
                                         <FacebookIcon size={16} />
                                         <a
                                             href="https://www.facebook.com/profile.php?id=61571503116965"
