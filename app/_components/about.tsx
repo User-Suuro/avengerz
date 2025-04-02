@@ -48,7 +48,7 @@ export default function AboutPage() {
 
                         <AccordionItem value="What services we offer">
                             <AccordionTrigger className="text-lg font-semibold">
-                                What services do you offer?
+                                What services we offer?
                             </AccordionTrigger>
                             <AccordionContent>
                                 <p>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                                     our services.
                                 </p>
                                 <div>
-                                    <div className="h-[400px]">
+                                    <div className="relative h-[400px]">
                                         {/* Skeleton Loader */}
                                         {isLoading && (
                                             <div className="absolute top-0 left-0 h-full w-full">
