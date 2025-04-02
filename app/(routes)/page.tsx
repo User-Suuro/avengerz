@@ -76,7 +76,7 @@ export default function Main() {
             </div>
 
             {/*-- Offered Services --*/}
-            <div className="container mx-auto my-16 border-y">
+            <div className="container mx-auto mt-16 mb-8 border-y">
                 {Object.entries(groupedItems).map(([category, items]) => (
                     <div
                         key={category}
