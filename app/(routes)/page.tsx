@@ -31,7 +31,7 @@ function bentoData(data: ServiceItemType[]) {
                     }
                     className="absolute top-10 [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)]"
                 >
-                    {element.images.map((f: any, idx: any) => (
+                    {element.images.map((f, idx) => (
                         <Image
                             key={idx}
                             src={`/assets/services/${element.folder}/${f}`}

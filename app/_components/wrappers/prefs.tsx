@@ -6,10 +6,8 @@ import { Check, Moon, Sun, Wallpaper, Settings } from 'lucide-react'
 
 import {
     Sheet,
-    SheetClose,
     SheetContent,
     SheetDescription,
-    SheetFooter,
     SheetHeader,
     SheetTitle,
     SheetTrigger,

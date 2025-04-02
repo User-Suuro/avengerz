@@ -38,7 +38,7 @@ export default function Marquee3D() {
     const [randomizedImages, setRandomizedImages] = useState<string[]>([])
 
     useEffect(() => {
-        let allImages: string[] = []
+        const allImages: string[] = []
 
         // Collect all images and shuffle them after component mounts
         Object.keys(groupedItems).forEach((key) => {

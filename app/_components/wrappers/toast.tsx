@@ -1,6 +1,6 @@
 'use client'
 
-import { toast as sonnerToast, type ToastT } from 'sonner'
+import { toast as sonnerToast } from 'sonner'
 import { Button } from '@/components/shadcn/button'
 import { useEffect, useState } from 'react'
 import { AlertCircle, CheckCircle, Info, Loader2, XCircle } from 'lucide-react'
